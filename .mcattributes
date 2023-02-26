@@ -1,0 +1,7 @@
+education.enable=false
+diagnostic.enable=true
+diagnostic.lang=true
+diagnostic.json=true
+diagnostic.mcfunction=true
+diagnostic.objectives=true
+diagnostic.tags=true

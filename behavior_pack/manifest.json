@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "76842f7f-e15d-4feb-9d2f-1076b82e5b81",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 19, 60]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "384e5d45-fb98-46e2-9708-d9b436870c7f",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.1.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-admin",
+      "version": "1.0.0-beta"
+    }
+  ],
+  "metadata": {
+    "authors": [ "edward3h" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "5.0.9"
+      ]
+    }
+  }
+}
